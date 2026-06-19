@@ -1,0 +1,39 @@
+{
+  "name": "wms-stock-management",
+  "version": "2.1.0",
+  "description": "WMS Warehouse Management System - Stock Management App",
+  "author": "CHAYA-PHON",
+  "license": "MIT",
+  "homepage": "https://chaya-phon.github.io/WMS-STOCK",
+  "private": false,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.3.9"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "keywords": [
+    "warehouse",
+    "stock",
+    "management",
+    "wms",
+    "inventory",
+    "qr-scanner"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CHAYA-PHON/WMS-STOCK.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CHAYA-PHON/WMS-STOCK/issues"
+  }
+}
